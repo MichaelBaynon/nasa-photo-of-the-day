@@ -54,24 +54,39 @@ margin-left: 10px;
 }
 
 .navBar a {
-  border: 3px solid rgb(97, 166, 255);
-  background: rgb(0, 110, 255);
-  font-size: 20px;
+  
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  font-size: 30px;
   margin-right: 200px;
-  margin-top: 20px; 
+  margin-top: 11px; 
   color: white;
   text-decoration: none;
   display: flex;
- 
+ text-align: center;
   align-items: center;
   height: 15px;
-  padding: 10px;
+  padding: 20px;
   transition: .4s;
   border-radius: 5px;
+  border: solid white;
+  
 }
 
 .navBar a:hover {
-  background-color: rgb(51, 139, 255);
- 
-  border: 3px solid white;
+  animation: animate 8s linear infinite;
+  
+ }
+
+ @keyframes animate {
+   0%
+ {
+   background-position: 0%;
+ }
+ 100%
+ {
+  background-position: 400%;
 }
+ }
+
+
