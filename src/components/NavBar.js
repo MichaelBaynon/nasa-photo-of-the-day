@@ -5,7 +5,7 @@ export default function NavBar() {
         <div className='navBar'>
             <h6>Nasa Daily</h6>
             <a href='#'>Home</a>
-            <a href='#'>About</a>
+            <a href='#'>More Pictures</a>
         </div>
     )
 }

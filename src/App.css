@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -33,12 +37,41 @@
 }
 
 .navBar {
-  border: solid red;
+  
+  background-color: black;
   display: flex;
   justify-content: space-between;
 }
 
 .navBar h6 {
-  font-size: 20px;
+  padding: 5px;
+  font-size: 80px;
+  color: white;
 
+margin-bottom: -10px;
+margin-top: -10px;
+margin-left: 10px;
+}
+
+.navBar a {
+  border: 3px solid rgb(97, 166, 255);
+  background: rgb(0, 110, 255);
+  font-size: 20px;
+  margin-right: 200px;
+  margin-top: 20px; 
+  color: white;
+  text-decoration: none;
+  display: flex;
+ 
+  align-items: center;
+  height: 15px;
+  padding: 10px;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+.navBar a:hover {
+  background-color: rgb(51, 139, 255);
+ 
+  border: 3px solid white;
 }
