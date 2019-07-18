@@ -1,13 +1,22 @@
-import React from "react";
 import "./App.css";
+import React from 'react'
+import Card from './components/Card'
+import NavBar from './components/NavBar'
+import 'semantic-ui-css/semantic.min.css'
+import { Button } from 'semantic-ui-react'
+import SidebarDimmed from './components/Sidebar'
+
+
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <SidebarDimmed />
+   <NavBar /> 
+   <Card />
     </div>
   );
 }
