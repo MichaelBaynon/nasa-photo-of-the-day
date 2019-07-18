@@ -25,7 +25,7 @@ export default function NavBar() {
 
             <Button animated>
       <Button.Content visible><a href='https://www.nasa.gov/multimedia/imagegallery/iotd.html'> More Pictures</a> </Button.Content>
-      <Button.Content hidden><a href='https://www.nasa.gov/multimedia/imagegallery/iotd.html'></a>
+      <Button.Content hidden color='white'><a href='https://www.nasa.gov/multimedia/imagegallery/iotd.html'></a>
         <Icon name='arrow right' />
       </Button.Content>
     </Button>

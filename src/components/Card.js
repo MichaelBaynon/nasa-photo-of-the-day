@@ -20,6 +20,10 @@ import CardInfo from './CardInfo'
       
         console.log(res.data)  
         
+        // .catch(res => {
+        //     console.log('error')  
+        // })
+        
         })
     }, [])
     
